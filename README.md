@@ -1,1 +1,1 @@
-Welcome to TypeRacer!
+# Welcome to TypeRacer!
