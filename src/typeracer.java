@@ -47,7 +47,7 @@ public class typeracer {
 		double startTime = System.currentTimeMillis();
 		String[] typing = new String[20];
 		for(int i=0; i<typing.length; i++) {
-			typing[i] = array[rand.nextInt(40)];
+			typing[i] = array[rand.nextInt(array.length)];
 			System.out.print(typing[i]+" ");
 			if(i==9) {
 				System.out.print("\n");
